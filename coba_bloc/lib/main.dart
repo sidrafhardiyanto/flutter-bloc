@@ -1,4 +1,5 @@
 import 'package:coba_bloc/1_statefulWidget.dart';
+import 'package:coba_bloc/2_statelessWidget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -33,7 +34,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: const MyHomePage(title: 'Flutter Demo Home Page'),
-      home: IniStatefulWidget(),
+      // home: IniStatefulWidget(),
+      home: IniStatelessWidget(),
     );
   }
 }
